@@ -1,0 +1,60 @@
+
+enableDebugConsole = 1
+/*
+0 sólo editor
+1 MP sólo admin
+2 MP todos
+*/
+
+// Hasta aquí todo te resulta familiar, ahora vamos con lo nuevo
+
+// #include es como si copiara y pegara el contenido de lo que incluyo
+// y no, no necesita ; al final
+// no hace falta abrir los archivos, ya los iremos viendo después.
+
+#include "dialogs\defines.hpp"
+
+// defines.hpp son las clases base para poder hacer dialogs, por ahora las podéis ignorar
+
+#include "dialogs\plantilla.hpp"
+
+// plantilla es donde vamos a poner el contenido que hagamos en el GUI editor
+
+
+class CfgFunctions
+{
+	#include "funciones.h"
+};
+
+// esto lo usaremos para compilar las funciones, pero lo miraremos después
+// ahora vuelve al tutorial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ¿qué haces?
